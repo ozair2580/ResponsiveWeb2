@@ -1,0 +1,238 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.header-container{
+    background-image: url("./assets (1)/asset 0.jpeg");
+    width: 100%;
+    background-size:100% ;
+    height: 110vh;
+    position: relative;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid black;
+}
+
+ .wix-header{
+    padding: 2% 0 0 2%;
+}
+.centerimg-header{
+   margin: 15vh auto;
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding: 5%;
+   background-image: url("./assets (1)/asset 1.png");
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40%;
+    height: 40%;
+   background-position-x: center;
+   background-position-y: center;
+   background-position: center;
+  
+    
+}
+.heading-header{
+     display: flex;
+      text-align: center;
+      gap: 2%;
+     flex-direction: column;
+}
+.heading-header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.input-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.input-header input{
+    color: black;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+   outline: none;
+    
+}
+.input-header button{
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(19, 93, 229);
+    color: white;
+}
+
+.input-header button img{
+    margin-left: 10px;
+    color: white;
+    animation: example 5s infinite;
+  
+}
+@keyframes example{
+   from {
+    left:0;
+
+   }
+   to {
+    left: 200px;
+   }
+
+}
+.input-header button:hover{
+    background-color: rgb(43, 43, 239);
+}
+
+/* main-section */
+
+.main-section{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 10% 5% 10% 5%;
+    position: relative;
+    border: 1px solid black;
+    background-size: 100%;
+    background-image: url("./assets (1)/asset 2.png");
+    background-repeat: no-repeat;
+}
+.first-main-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   height: 80%;
+
+}
+.heading-main{
+    width: 30%;
+    padding-left:5% ;
+}
+.heading-main h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.heading-main button{
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(19, 93, 229);
+    color: white;
+
+}
+.heading-main button:hover{
+    background-color: rgb(43, 43, 239);
+}
+.image-main{
+    width: 50%;
+}
+.image-main img{
+    height: 65vh;
+   
+}
+
+/* main-sectin-2 */
+
+.reverse{
+    flex-direction: row-reverse;
+}
+/* last-main */
+
+.last-main{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    background-size: 100%;
+    background-image: url("./assets (1)/asset 2.png");
+    background-repeat: no-repeat;
+}
+.heading-last-main{
+    flex-direction: column;
+    align-items: center;
+     width: 60%;
+    /* height: 60%; */ 
+
+}
+.heading-last-main h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.heading-last-main button{
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(19, 93, 229);
+    color: white;
+
+}
+.heading-last-main button:hover{
+    background-color: rgb(43, 43, 239);
+}
+
+/* footer */
+
+.footer{
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+    
+    
+}
+.footer-1{
+    display: flex;
+    gap: 11px;
+}
+ .footer-2{
+    display: flex;
+    gap: 11px;
+}
+.footer-3{
+    width: 30%; } 
+.hr{
+ border-left: 1px solid black;   
+ margin-top: 15px;
+ height: 20px;
+    
+}
